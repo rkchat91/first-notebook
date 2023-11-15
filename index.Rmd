@@ -1,0 +1,142 @@
+---
+title: "My Website"
+output: 
+    html_document : 
+      toc: true
+      toc_depth : 5
+      toc_float: true
+---
+
+#Top header here 
+This document will demonstrate some \
+Markdown concepts\
+
+# Top {#top-marker}
+
+##This is a sub-heading 
+Who doesn't love a sub! 
+
+###Even smaller
+
+
+####Smaller still
+
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+**Bold** normal \
+*italic* normal \
+H~2~O \
+x^2 = y^2 \
+<U> Underline text </U>. \
+~~This is a mistake~~ \
+
+
+```x<- read.csv("file.csv") ``` 
+
+# 1,500 scientists lift the lid on reproducibility \
+Monya Baker\
+25 May 2016\
+
+## Survey sheds light on the 'crisis' rocking research\
+**More than 70% of researchers have tried and failed to reproduce another scientist's experiments,** and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from *Nature's* survery of 1,576 researchers who took a brief online questionnaire on reproducibility in research.\
+\
+The data reveal sometimes-contradictory attitude towards reproducibility. Although 52% of those surveryed agree that there is a significant 'crisis' of reproducibility, less than 31% think that failure to reproduce published results means that the result is proabably wrong, and most say that they still trust the published literature. \
+
+![chart](img/chart.jpeg)/
+
+# The Survey 
+
+In the survey [^1] respondents were asked to rate 11 different approaches to improving reproducibilty in science. Below is the list order by the most highly rated:
+
+[^1]:The survey can be downloaded [here](https://www.nature.com/news/polopoly_fs/7.36741!/file/Reproduciblility%20Questionnaire.doc)
+
+* Better understanding of statistics
+* Better mentoring/supervision
+* More robust design
+* Better teaching
+* More within-lab validation
+* Incentives for better practice
+* Incentives for formal reproduction
+* More external-lab validation
+* More time for mentoring
+* Journals enforcing standards
+* More time checking notebooks
+
+
+[Link to top](#top-marker)
+
+[text of link](https://cambiotraining.github.io/reproducibility-training/rmarkdown.html#Challenge)
+
+# Ordered lists\
+
+1. Item one
+    a. Item 1a
+    b. Item 1b
+2. Item two 
+3. Item three\
+
+# Unordered lists 
+* Item three
+* Item four
+* Item seven 
+    * A 
+
+
+
+## Task lists 
+
+- [ ] unticked box 
+- [x] ticked box
+
+
+![ Rlogo ](img/logo.png)
+
+
+# Tables 
+
+|Column 1| Column 2|
+|--------|---------|
+|Item 1,1|Item 1,2|
+|Item 2,1|Item 2,2|
+
+# Aligned table
+
+|Column 1| Column 2|Column 3
+|:--------|:---------:|--:|
+|Item 1,1|Item 1,2|Item 1,3|
+|Item 2,1|Item 2,2|Item 2,3|
+
